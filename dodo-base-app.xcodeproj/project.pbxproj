@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D1450A12B0CC8A4006E772E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450A02B0CC8A4006E772E /* AppDelegate.swift */; };
+		5D1450A52B0CC8A4006E772E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450A42B0CC8A4006E772E /* ViewController.swift */; };
+		5D1450A82B0CC8A4006E772E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1450A62B0CC8A4006E772E /* Main.storyboard */; };
+		5D1450AD2B0CC8A5006E772E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1450AB2B0CC8A5006E772E /* LaunchScreen.storyboard */; };
+		5D1450B82B0CC8A5006E772E /* dodo_base_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450B72B0CC8A5006E772E /* dodo_base_appTests.swift */; };
+		5D1450C22B0CC8A5006E772E /* dodo_base_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450C12B0CC8A5006E772E /* dodo_base_appUITests.swift */; };
+		5D1450C42B0CC8A5006E772E /* dodo_base_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450C32B0CC8A5006E772E /* dodo_base_appUITestsLaunchTests.swift */; };
+		5D1450DD2B0CC8FA006E772E /* DetailScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450D22B0CC8FA006E772E /* DetailScreenVC.swift */; };
+		5D1450DE2B0CC8FA006E772E /* SpecialOfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450D52B0CC8FA006E772E /* SpecialOfferCell.swift */; };
+		5D1450DF2B0CC8FA006E772E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450D62B0CC8FA006E772E /* ProductCell.swift */; };
+		5D1450E02B0CC8FA006E772E /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450D72B0CC8FA006E772E /* PhotoCollectionCell.swift */; };
+		5D1450E12B0CC8FA006E772E /* MenuTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450D82B0CC8FA006E772E /* MenuTabVC.swift */; };
+		5D1450E22B0CC8FA006E772E /* MenuScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450D92B0CC8FA006E772E /* MenuScreenVC.swift */; };
+		5D1450E32B0CC8FA006E772E /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450DB2B0CC8FA006E772E /* ProductsService.swift */; };
+		5D1450E42B0CC8FA006E772E /* IngredientsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450DC2B0CC8FA006E772E /* IngredientsService.swift */; };
+		5D1450E82B0CC904006E772E /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450E62B0CC904006E772E /* Ingredient.swift */; };
+		5D1450E92B0CC904006E772E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450E72B0CC904006E772E /* Product.swift */; };
+		5D1450ED2B0CC90E006E772E /* UIButton+adaptableSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450EB2B0CC90E006E772E /* UIButton+adaptableSize.swift */; };
+		5D1450EE2B0CC90E006E772E /* UIView+shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450EC2B0CC90E006E772E /* UIView+shadow.swift */; };
+		5D1450F12B0CC927006E772E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1450F02B0CC927006E772E /* SceneDelegate.swift */; };
+		5D1450F32B0CC940006E772E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1450F22B0CC940006E772E /* Assets.xcassets */; };
+		5D1450F62B0CCAF7006E772E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D1450F52B0CCAF7006E772E /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D1450B42B0CC8A5006E772E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1450952B0CC8A4006E772E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D14509C2B0CC8A4006E772E;
+			remoteInfo = "dodo-base-app";
+		};
+		5D1450BE2B0CC8A5006E772E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1450952B0CC8A4006E772E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D14509C2B0CC8A4006E772E;
+			remoteInfo = "dodo-base-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D14509D2B0CC8A4006E772E /* dodo-base-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dodo-base-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1450A02B0CC8A4006E772E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D1450A42B0CC8A4006E772E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D1450A72B0CC8A4006E772E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D1450AC2B0CC8A5006E772E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D1450AE2B0CC8A5006E772E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1450B32B0CC8A5006E772E /* dodo-base-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dodo-base-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1450B72B0CC8A5006E772E /* dodo_base_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dodo_base_appTests.swift; sourceTree = "<group>"; };
+		5D1450BD2B0CC8A5006E772E /* dodo-base-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dodo-base-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1450C12B0CC8A5006E772E /* dodo_base_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dodo_base_appUITests.swift; sourceTree = "<group>"; };
+		5D1450C32B0CC8A5006E772E /* dodo_base_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dodo_base_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D1450D22B0CC8FA006E772E /* DetailScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailScreenVC.swift; sourceTree = "<group>"; };
+		5D1450D52B0CC8FA006E772E /* SpecialOfferCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialOfferCell.swift; sourceTree = "<group>"; };
+		5D1450D62B0CC8FA006E772E /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		5D1450D72B0CC8FA006E772E /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		5D1450D82B0CC8FA006E772E /* MenuTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTabVC.swift; sourceTree = "<group>"; };
+		5D1450D92B0CC8FA006E772E /* MenuScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScreenVC.swift; sourceTree = "<group>"; };
+		5D1450DB2B0CC8FA006E772E /* ProductsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		5D1450DC2B0CC8FA006E772E /* IngredientsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsService.swift; sourceTree = "<group>"; };
+		5D1450E62B0CC904006E772E /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		5D1450E72B0CC904006E772E /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5D1450EB2B0CC90E006E772E /* UIButton+adaptableSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+adaptableSize.swift"; sourceTree = "<group>"; };
+		5D1450EC2B0CC90E006E772E /* UIView+shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+shadow.swift"; sourceTree = "<group>"; };
+		5D1450F02B0CC927006E772E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D1450F22B0CC940006E772E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/dodo-app-main/dodo-app/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D14509A2B0CC8A4006E772E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1450F62B0CCAF7006E772E /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1450B02B0CC8A5006E772E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1450BA2B0CC8A5006E772E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D1450942B0CC8A4006E772E = {
+			isa = PBXGroup;
+			children = (
+				5D14509F2B0CC8A4006E772E /* dodo-base-app */,
+				5D1450B62B0CC8A5006E772E /* dodo-base-appTests */,
+				5D1450C02B0CC8A5006E772E /* dodo-base-appUITests */,
+				5D14509E2B0CC8A4006E772E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D14509E2B0CC8A4006E772E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D14509D2B0CC8A4006E772E /* dodo-base-app.app */,
+				5D1450B32B0CC8A5006E772E /* dodo-base-appTests.xctest */,
+				5D1450BD2B0CC8A5006E772E /* dodo-base-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D14509F2B0CC8A4006E772E /* dodo-base-app */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450D02B0CC8F9006E772E /* Screens */,
+				5D1450DA2B0CC8FA006E772E /* Services */,
+				5D1450A02B0CC8A4006E772E /* AppDelegate.swift */,
+				5D1450EA2B0CC90E006E772E /* Extensions */,
+				5D1450EF2B0CC927006E772E /* App */,
+				5D1450A42B0CC8A4006E772E /* ViewController.swift */,
+				5D1450A62B0CC8A4006E772E /* Main.storyboard */,
+				5D1450F22B0CC940006E772E /* Assets.xcassets */,
+				5D1450AB2B0CC8A5006E772E /* LaunchScreen.storyboard */,
+				5D1450AE2B0CC8A5006E772E /* Info.plist */,
+			);
+			path = "dodo-base-app";
+			sourceTree = "<group>";
+		};
+		5D1450B62B0CC8A5006E772E /* dodo-base-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450B72B0CC8A5006E772E /* dodo_base_appTests.swift */,
+			);
+			path = "dodo-base-appTests";
+			sourceTree = "<group>";
+		};
+		5D1450C02B0CC8A5006E772E /* dodo-base-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450C12B0CC8A5006E772E /* dodo_base_appUITests.swift */,
+				5D1450C32B0CC8A5006E772E /* dodo_base_appUITestsLaunchTests.swift */,
+			);
+			path = "dodo-base-appUITests";
+			sourceTree = "<group>";
+		};
+		5D1450D02B0CC8F9006E772E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450D12B0CC8F9006E772E /* Detail */,
+				5D1450D32B0CC8FA006E772E /* Menu */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5D1450D12B0CC8F9006E772E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450D22B0CC8FA006E772E /* DetailScreenVC.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5D1450D32B0CC8FA006E772E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450D42B0CC8FA006E772E /* Cells */,
+				5D1450D82B0CC8FA006E772E /* MenuTabVC.swift */,
+				5D1450D92B0CC8FA006E772E /* MenuScreenVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		5D1450D42B0CC8FA006E772E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450D52B0CC8FA006E772E /* SpecialOfferCell.swift */,
+				5D1450D62B0CC8FA006E772E /* ProductCell.swift */,
+				5D1450D72B0CC8FA006E772E /* PhotoCollectionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5D1450DA2B0CC8FA006E772E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450E52B0CC904006E772E /* Models */,
+				5D1450DB2B0CC8FA006E772E /* ProductsService.swift */,
+				5D1450DC2B0CC8FA006E772E /* IngredientsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5D1450E52B0CC904006E772E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450E62B0CC904006E772E /* Ingredient.swift */,
+				5D1450E72B0CC904006E772E /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D1450EA2B0CC90E006E772E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450EB2B0CC90E006E772E /* UIButton+adaptableSize.swift */,
+				5D1450EC2B0CC90E006E772E /* UIView+shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D1450EF2B0CC927006E772E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D1450F02B0CC927006E772E /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D14509C2B0CC8A4006E772E /* dodo-base-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1450C72B0CC8A5006E772E /* Build configuration list for PBXNativeTarget "dodo-base-app" */;
+			buildPhases = (
+				5D1450992B0CC8A4006E772E /* Sources */,
+				5D14509A2B0CC8A4006E772E /* Frameworks */,
+				5D14509B2B0CC8A4006E772E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dodo-base-app";
+			packageProductDependencies = (
+				5D1450F52B0CCAF7006E772E /* SnapKit */,
+			);
+			productName = "dodo-base-app";
+			productReference = 5D14509D2B0CC8A4006E772E /* dodo-base-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D1450B22B0CC8A5006E772E /* dodo-base-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1450CA2B0CC8A5006E772E /* Build configuration list for PBXNativeTarget "dodo-base-appTests" */;
+			buildPhases = (
+				5D1450AF2B0CC8A5006E772E /* Sources */,
+				5D1450B02B0CC8A5006E772E /* Frameworks */,
+				5D1450B12B0CC8A5006E772E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D1450B52B0CC8A5006E772E /* PBXTargetDependency */,
+			);
+			name = "dodo-base-appTests";
+			productName = "dodo-base-appTests";
+			productReference = 5D1450B32B0CC8A5006E772E /* dodo-base-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D1450BC2B0CC8A5006E772E /* dodo-base-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1450CD2B0CC8A5006E772E /* Build configuration list for PBXNativeTarget "dodo-base-appUITests" */;
+			buildPhases = (
+				5D1450B92B0CC8A5006E772E /* Sources */,
+				5D1450BA2B0CC8A5006E772E /* Frameworks */,
+				5D1450BB2B0CC8A5006E772E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D1450BF2B0CC8A5006E772E /* PBXTargetDependency */,
+			);
+			name = "dodo-base-appUITests";
+			productName = "dodo-base-appUITests";
+			productReference = 5D1450BD2B0CC8A5006E772E /* dodo-base-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D1450952B0CC8A4006E772E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					5D14509C2B0CC8A4006E772E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					5D1450B22B0CC8A5006E772E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5D14509C2B0CC8A4006E772E;
+					};
+					5D1450BC2B0CC8A5006E772E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5D14509C2B0CC8A4006E772E;
+					};
+				};
+			};
+			buildConfigurationList = 5D1450982B0CC8A4006E772E /* Build configuration list for PBXProject "dodo-base-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D1450942B0CC8A4006E772E;
+			packageReferences = (
+				5D1450F42B0CCAF7006E772E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 5D14509E2B0CC8A4006E772E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D14509C2B0CC8A4006E772E /* dodo-base-app */,
+				5D1450B22B0CC8A5006E772E /* dodo-base-appTests */,
+				5D1450BC2B0CC8A5006E772E /* dodo-base-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D14509B2B0CC8A4006E772E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1450AD2B0CC8A5006E772E /* LaunchScreen.storyboard in Resources */,
+				5D1450F32B0CC940006E772E /* Assets.xcassets in Resources */,
+				5D1450A82B0CC8A4006E772E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1450B12B0CC8A5006E772E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1450BB2B0CC8A5006E772E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D1450992B0CC8A4006E772E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1450A52B0CC8A4006E772E /* ViewController.swift in Sources */,
+				5D1450A12B0CC8A4006E772E /* AppDelegate.swift in Sources */,
+				5D1450EE2B0CC90E006E772E /* UIView+shadow.swift in Sources */,
+				5D1450DF2B0CC8FA006E772E /* ProductCell.swift in Sources */,
+				5D1450DE2B0CC8FA006E772E /* SpecialOfferCell.swift in Sources */,
+				5D1450E22B0CC8FA006E772E /* MenuScreenVC.swift in Sources */,
+				5D1450F12B0CC927006E772E /* SceneDelegate.swift in Sources */,
+				5D1450E42B0CC8FA006E772E /* IngredientsService.swift in Sources */,
+				5D1450DD2B0CC8FA006E772E /* DetailScreenVC.swift in Sources */,
+				5D1450E82B0CC904006E772E /* Ingredient.swift in Sources */,
+				5D1450E02B0CC8FA006E772E /* PhotoCollectionCell.swift in Sources */,
+				5D1450E12B0CC8FA006E772E /* MenuTabVC.swift in Sources */,
+				5D1450ED2B0CC90E006E772E /* UIButton+adaptableSize.swift in Sources */,
+				5D1450E32B0CC8FA006E772E /* ProductsService.swift in Sources */,
+				5D1450E92B0CC904006E772E /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1450AF2B0CC8A5006E772E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1450B82B0CC8A5006E772E /* dodo_base_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1450B92B0CC8A5006E772E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1450C22B0CC8A5006E772E /* dodo_base_appUITests.swift in Sources */,
+				5D1450C42B0CC8A5006E772E /* dodo_base_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D1450B52B0CC8A5006E772E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D14509C2B0CC8A4006E772E /* dodo-base-app */;
+			targetProxy = 5D1450B42B0CC8A5006E772E /* PBXContainerItemProxy */;
+		};
+		5D1450BF2B0CC8A5006E772E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D14509C2B0CC8A4006E772E /* dodo-base-app */;
+			targetProxy = 5D1450BE2B0CC8A5006E772E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D1450A62B0CC8A4006E772E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1450A72B0CC8A4006E772E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D1450AB2B0CC8A5006E772E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1450AC2B0CC8A5006E772E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D1450C52B0CC8A5006E772E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D1450C62B0CC8A5006E772E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D1450C82B0CC8A5006E772E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dodo-base-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodo-base-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D1450C92B0CC8A5006E772E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dodo-base-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodo-base-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D1450CB2B0CC8A5006E772E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodo-base-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dodo-base-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dodo-base-app";
+			};
+			name = Debug;
+		};
+		5D1450CC2B0CC8A5006E772E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodo-base-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dodo-base-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dodo-base-app";
+			};
+			name = Release;
+		};
+		5D1450CE2B0CC8A5006E772E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodo-base-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dodo-base-app";
+			};
+			name = Debug;
+		};
+		5D1450CF2B0CC8A5006E772E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dodo-base-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dodo-base-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1450982B0CC8A4006E772E /* Build configuration list for PBXProject "dodo-base-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1450C52B0CC8A5006E772E /* Debug */,
+				5D1450C62B0CC8A5006E772E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1450C72B0CC8A5006E772E /* Build configuration list for PBXNativeTarget "dodo-base-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1450C82B0CC8A5006E772E /* Debug */,
+				5D1450C92B0CC8A5006E772E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1450CA2B0CC8A5006E772E /* Build configuration list for PBXNativeTarget "dodo-base-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1450CB2B0CC8A5006E772E /* Debug */,
+				5D1450CC2B0CC8A5006E772E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1450CD2B0CC8A5006E772E /* Build configuration list for PBXNativeTarget "dodo-base-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1450CE2B0CC8A5006E772E /* Debug */,
+				5D1450CF2B0CC8A5006E772E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D1450F42B0CCAF7006E772E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D1450F52B0CCAF7006E772E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D1450F42B0CCAF7006E772E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D1450952B0CC8A4006E772E /* Project object */;
+}
